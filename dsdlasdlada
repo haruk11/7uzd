@@ -1,0 +1,127 @@
+    //#include <iostream>
+//using namespace std;
+//int main()
+//{
+//	int a = 0;
+//	int b = 0;
+//	do {
+//		cout << a <<" "<< b << endl;
+//		a = a + 1;
+//		b = a + a;
+//	} while (a < 101);
+//
+//		return 0;
+//
+//}
+
+// 22222222222222222222222222
+//
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int skaitlis;
+//	cout << "Enter your number";
+//	cin >> skaitlis;
+//	if (skaitlis < 0) {
+//		cout << "Jums ir negativ skaitlis";
+//	}
+//
+//	else if (skaitlis < 20 || skaitlis > 0) {
+//		cout << "Jusu skaitlis ir pozitivs";
+//
+//
+//	}
+//	else {
+//		cout << "Jusu skaitlis ir vaira; par 20";
+//
+//	}
+//
+//	return 0;
+//}
+
+//
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int skaitlis;
+//	cout << "Enter your number;
+//	cin >> skaitlis;
+//	if (skaitlis < 30) {
+//		cout << "Jusu skaitlis ir mazaks par 30";
+//	}
+//
+//	else if (skaitlis > 100) {
+//		cout << "Jusu skaitlis ir lielaks par 100";
+//	}
+//}
+
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int i = 1;
+//	string name;
+//	cout << "Enter your name:";
+//	cin >> name;
+//	while (i <= 20); {
+//		cout << name;
+//		i++;
+//
+//		cout << "I am done";
+//	}
+//	
+//}
+
+//
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int i = 10;
+//	while (i > 10);
+//	cout << i << endl;
+//	i--;
+//}
+
+#include <iostream>
+using namespace std;
+int main() {
+	string login;
+	string password;
+	string login1;
+	string password1;
+	string password2;
+	string login2;
+	cout << "---------------------------";
+	cout << "Enter your login";
+	cout >> login;
+	cout << "Enter your parol";
+	cin >> password;
+	cout << "---------------------------";
+	cout << "Enter your login, to complete it";
+	cin >> login1;
+	if (login1 != login) {
+	cout << "Enter your login again";
+} 
+	else {
+		cout << "Enter your parol";
+		cin >> password1;
+
+
+		if (login != login) {
+			cout << "Bye bye you lox";
+				return 0;
+
+
+		if (password != password1) {
+			cout << "Enter your password again";
+			cin >> password2;
+		}
+		if (password != password2);
+		cout << "Sorry buy you are too dumb";
+
+			return 0;
+	}
+else {
+cout << "Thank you for regestration!";
+
+}
